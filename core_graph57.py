@@ -7,11 +7,7 @@ def call_main_data57(num):
     return data
 
 def graph_plotting(num):
-    """
-    graph_plotting(integer)
-    Plots graph from the call_main_data57 function
-    Only Table2, Table3 and Table4 are available.
-    """
+
     import pygal as pg
     dmain = call_main_data57(num)
     text, last, no_tab = '', '', 'Not enough data available for this year'
