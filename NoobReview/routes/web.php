@@ -25,3 +25,7 @@ Route::get('/review/{ID}', 'ReviewController@linkReview' );
 Route::get('/','IndexController@index' );
 
 Route::get('/home', 'IndexController@index' );
+
+Route::get('/contact', function() {
+    return view('contact');
+});

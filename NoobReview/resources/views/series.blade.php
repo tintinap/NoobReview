@@ -62,6 +62,7 @@ a:hover {
     <div class="w3-bar w3-black w3-card" id="myNavbar">
         <a href="/" class="w3-bar-item w3-button w3-wide">NOOB-R</a>
         <a href="/series-list" class="w3-bar-item w3-button w3-wide">Series</a>
+        <a href="/contact" class="w3-bar-item w3-button w3-wide" style="color: #ffffff">Contact</a>
     </div>
     </div>
 <!--End Navbar-->
@@ -75,8 +76,8 @@ a:hover {
 <br>
 
 
-@foreach ($date->chunk(3) as $row)
 <!-- <center> -->
+@foreach ($date->chunk(3) as $row)
   <div class="w3-row">
     @foreach ($row as $item)
     <div class="container">
