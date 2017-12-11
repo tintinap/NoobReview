@@ -11,19 +11,17 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
 
 
-Route::get('/home', function () {
-    return view('home');
-});
 
-Route::get('/series-list', function () {
+Route::get('/review', function () {
     return view('series');
 });
 
-Route::get('/re', function () {
-    return view('review');
-});
+Route::get('/series-list','SeListController@sortDate' );
+
+Route::get('/review/{ID}', 'ReviewController@linkReview' );
+
+Route::get('/','IndexController@index' );
+
+Route::get('/home', 'IndexController@index' );
