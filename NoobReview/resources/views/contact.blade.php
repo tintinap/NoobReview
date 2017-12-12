@@ -118,7 +118,7 @@ a:hover {
     <div class="row">
     <div class="span6" align="center"><a href="https://www.facebook.com/V.d.Zhukov" target="_blank"><img src="https://scontent.fbkk5-2.fna.fbcdn.net/v/t34.0-12/25323297_2014213875463833_1301321027_n.jpg?oh=362f493a5ebb6753aa2c673ee2fefa06&oe=5A3155A1" width="40
         %" height="40%" class="img-circle"></a></div>
-    <div class="span6"><p style="font-size: 20px"><br><br><br><br> Name: Raksina Kanokwut <br>ID: 600700??</p></div>
+    <div class="span6"><p style="font-size: 20px"><br><br><br><br> Name: Raksina Kanokwut <br>ID: 60070082</p></div>
     </div>
 </div>
 
