@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Bootstrap Example</title>
+    <title>NOOB REVIEW</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -86,18 +86,13 @@ a:hover {
                 <a href="/review/{{$item->ID}}"><img src="{{ $item->cover }}" style="width:100%;height:630px;"></a>
             @endforeach
         </div>
-
+        @foreach ($series->chunk(2) as $items)
         <div class="item" style="height:630px; padding-top: 20px">
-            @foreach ($series as $item1)
+            @foreach ($items as $item)
                 <a href="/review/{{$item->ID}}"><img src="{{ $item->cover }}" style="width:100%;height:630px;"></a>
             @endforeach
         </div>
-        
-        <div class="item" style="height:630px !; padding-top: 20px">
-            <!-- @foreach ($series as $item) -->
-            <img src="https://ctd-thechristianpost.netdna-ssl.com/en/full/64805/gothamgotham-season-4.jpg?w=760&h=428" style="width:100%;height:630px;">
-            <!-- @endforeach -->
-        </div>
+        @endforeach
     </div>
 
     <!-- Left and right controls -->
