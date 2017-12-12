@@ -82,8 +82,8 @@ a:hover {
 
     <div class="carousel-inner">
         <div class="item active" style="height:630px; padding-top: 20px">
-            @foreach ($series as $item)
-                <a href="/review/{{$item->ID}}"><img src="{{ $item->cover }}" style="width:100%;height:630px;"></a>
+            @foreach ($series2 as $item1)
+                <a href="/review/{{$item1->ID}}"><img src="{{ $item1->cover }}" style="width:100%;height:630px;"></a>
             @endforeach
         </div>
         @foreach ($series->chunk(2) as $items)

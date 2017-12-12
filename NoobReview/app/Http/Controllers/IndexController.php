@@ -9,6 +9,7 @@ class IndexController extends Controller
 {
     public function index() {
 
-        return view('home')->with('series', Series::inRandomOrder()->get());
+        return view('home')->with('series', Series::inRandomOrder()->get())
+                        ->with('series2', Series::inRandomOrder()->get());
     }
 }
