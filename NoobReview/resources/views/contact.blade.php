@@ -7,9 +7,76 @@
         <link href="css/style.css" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
     </head>
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+
+.center {
+    text-align: center;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+}
+
+.pagination a.active {
+    background-color: #454945;
+    color: white;
+    border: 1px solid #454945;
+}
+
+.pagination a:hover:not(.active) {background-color: #000000d9}
+
+a:link {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.picture:hover {
+    opacity: 0.3;
+}
+
+</style>
+<body style="background-color: #000000">
+
+<!--Start Navbar-->
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+    <div class="w3-bar w3-black w3-card" id="myNavbar">
+        <a href="/" class="w3-bar-item w3-button w3-wide">NOOB-R</a>
+        <a href="/series-list" class="w3-bar-item w3-button w3-wide">Series</a>
+        <a href="/contact" class="w3-bar-item w3-button w3-wide" style="color: #ffffff">Contact</a>
+    </div>
+    </div>
+<!--End Navbar-->
+
     <body style="background-color: #000000">
     <div class="container" style="background-color: #ffffff">
     <h1 align="center">Contact</h1>
@@ -55,9 +122,6 @@
     </div>
 </div>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-<!--WTF-->
+
     </body>
 </html>
